@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Output files
+bot/games.json
+
+config.js
+
+# VSCode settings (si tu utilises VSCode)
+.vscode/
+
+# Optional: build / dist if you ever compile
+dist/
+build/
