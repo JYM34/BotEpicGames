@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Bot Discord pour afficher les jeux gratuits Epic Games",
   "scripts": {
-    "epic": "pm2 flush && pm2 delete epic || true && pm2 start index.js --name epic && pm2 logs epic"
+    "start": "pm2 start index.js --name epic",
+    "restart": "pm2 flush && pm2 delete epic || true && pm2 start index.js --name epic && pm2 logs epic"
   },
   "dependencies": {
     "discord.js": "^14.12.1",
